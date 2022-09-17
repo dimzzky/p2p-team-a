@@ -9,3 +9,8 @@ def root(a,b):
 #Modulo
 def moduo(a, b)
     return a % b
+
+#Max
+def max_num(a, b)
+    list = [a, b]
+    return max(list)
