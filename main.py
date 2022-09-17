@@ -9,12 +9,11 @@ def main():
 
     if operator == "+":
         result = add(data_1, data_2)
-        
-    print("{} {} {} = {} ".format(data_1, operator, data_2, result))
+        print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
     if operator == "^":
         result = root(data_1,data_2)
-    print("Result for {} root {} is {}".format(data_1,data_2,result))
+        print("Result for {} root {} is {}".format(data_1,data_2,result))
 
     if operator == ">":
         result = max_num(data_1,data_2)
