@@ -1,4 +1,4 @@
-from math_function import add, root, modulo
+from math_function import add,root,max_num, modulo
 
 def main():
 
@@ -17,6 +17,12 @@ def main():
     if operator == "%":
         result = modulo(data_1,data_2)
         print("Result for {} modulo{} is {}".format(data_1,data_2,result))
+
+
+    if operator == ">":
+        result = max_num(data_1,data_2)
+        print("{} is the max number".format(result))
+
 
 if __name__ == "__main__":
     print("Hello Main !")
