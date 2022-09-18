@@ -7,7 +7,7 @@ def root(a,b):
     return a ** (1/b)
 
 #Modulo
-def moduo(a, b):
+def modulo(a, b):
     return a % b
 
 #Max
