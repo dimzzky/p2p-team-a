@@ -1,5 +1,4 @@
-from math_function import add,root,max_num
-
+from math_function import add,root,max_num, modulo
 
 def main():
 
@@ -14,6 +13,11 @@ def main():
     if operator == "^":
         result = root(data_1,data_2)
         print("Result for {} root {} is {}".format(data_1,data_2,result))
+    
+    if operator == "%":
+        result = modulo(data_1,data_2)
+        print("Result for {} modulo{} is {}".format(data_1,data_2,result))
+
 
     if operator == ">":
         result = max_num(data_1,data_2)
