@@ -1,4 +1,4 @@
-from math_function import add
+from math_function import add,root
 
 
 def main():
@@ -11,6 +11,10 @@ def main():
         result = add(data_1, data_2)
         
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
+
+    if operator == "^":
+        result = root(data_1,data_2)
+    print("Result for {} root {} is {}".format(data_1,data_2,result))
 
 
 if __name__ == "__main__":
